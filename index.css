@@ -1,0 +1,105 @@
+body{ 
+	color: grey;
+	background: black;
+	background-image: url("multimedia/fondo.jpg");
+	background-position: top center ;
+	background-repeat: no-repeat;
+	margin: 0 80px;
+	font-size: 20px
+
+}
+a {
+	color: white;}
+.blanco{
+ color:white; }
+ul{
+	text-align: left;}
+img{
+	text-align: center;
+
+}
+ul {
+	 font-family: 'Roboto Condensed', sans-serif; 
+}
+td {
+	font-family: 'Roboto Slab', serif;
+}
+
+.integrantes{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: yellow;
+
+}
+
+#caja{
+		/*width: 200px;
+		max-width: 800px;
+		min-width: 400px;*/
+		visibility: visible;
+		border: 1px white;
+		text-align: center;
+		/*display: block;*/
+		float: left;
+		width: 20%;
+		margin: 20px ; 
+
+}
+.photo_singer{
+	width: 50%;
+}
+
+.sub-menu-master {position: relative;
+						}
+.sub-menu{visibility: hidden;
+		 opacity: 0;
+		 position: absolute;
+		 top:100%;
+		 left: 0;
+		 width: 100%;
+		 transform: translateY(-2em);
+		 z-index: -1;
+		 transition: all 0.3s ease-in-out 0s,visibility 0s, linear 0.3,z-index 0s, linear 0.01s;
+		}
+.sub-menu-master:focus .sub-menu,
+.sub-menu-master:focus-within .sub-menu,
+.sub-menu-master:hover 
+.sub-menu{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transform: translateY(0%);
+	transition-delay: 0s, 0s, 0.3s;
+	
+}
+nav a{
+	color: black;
+	display: block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+nav a:hover{
+	color: yellow;
+
+}
+nav ul,
+nav ul li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav> ul> li{ display: inline-block;
+		     border-left: solid 1px black;
+		      }
+nav> ul> li: first-child {
+	border-left: none;
+}
+.sub-menu{
+	background: black;
+}		      
+ul .social a{
+	text-decoration: underline;
+	display: block;
+	color: white;
+	font-size: 10px;
+} 
