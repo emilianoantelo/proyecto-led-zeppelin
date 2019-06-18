@@ -2,10 +2,22 @@ body{
 	color: grey;
 	background: black;
 	background-image: url("multimedia/fondo.jpg");
-	background-position: top center ;
+	background-position: top-center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0 80px;
-	font-size: 20px
+	font-size: 20px;
+}
+header .logo-conteiner {
+	margin-top: 10px;
+	width: 25%;
+	height: 100px;
+	
+}
+
+header img.logo{
+	width: 100%;
+	height: auto;
 
 }
 a {
@@ -24,6 +36,7 @@ ul {
 td {
 	font-family: 'Roboto Slab', serif;
 }
+
 
 .integrantes{
 	font-family: 'Roboto Slab', serif;
@@ -97,9 +110,52 @@ nav> ul> li: first-child {
 .sub-menu{
 	background: black;
 }		      
+
 ul .social a{
 	text-decoration: underline;
 	display: block;
 	color: white;
 	font-size: 10px;
 } 
+
+
+footer .footer{
+	padding: 30px 20px;
+	display: inline-flex;
+}
+
+footer .social{
+	display: -webkit-inline-box;
+    width: 50%;
+    text-align: right;
+    list-style: none;
+}
+
+footer .footer .social ul{
+	display: inline;
+	text-align: right;
+}
+footer .footer .social ul li{
+    display: inline-block;
+    text-align: right;
+
+}
+footer .footer .social a{
+	width: 30px;
+	height: 30px;
+	background: gray;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 16px;
+    line-height: 28px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+footer .footer .copyright{
+	text-align: left;
+	width: 50%;
+	display: inline;
+	margin-top: 20px;
+}
