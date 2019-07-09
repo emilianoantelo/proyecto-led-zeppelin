@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-led-zeppelin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilianoantelo/proyecto-led-zeppelin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilianoantelo/proyecto-led-zeppelin/issues"
+  },
+  "homepage": "https://github.com/emilianoantelo/proyecto-led-zeppelin#readme"
+}

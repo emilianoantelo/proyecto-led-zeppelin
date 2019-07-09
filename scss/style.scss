@@ -1,0 +1,10 @@
+.header__navigation {
+​color:red;
+} 
+
+.header__navigation--secondary​ {
+
+	@extend .header__navigation;
+	background​: ​#dfe0e0​;
+
+}
