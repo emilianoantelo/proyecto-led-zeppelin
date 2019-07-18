@@ -1,102 +1,141 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title> MENU</title>
-<link rel="stylesheet" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-<meta name="viewport" content="widht=device-widht,initial-scale=1.0"/>
-</head>
-<meta charset='utf-8'>
-<body>
-<section>	
-	<header>
-		<div class="logo-conteiner">
-			<img class="logo" src="multimedia/logo.png">
-		</div>
-		<nav>		
-			<ul>
-				<li class="sub-menu-master" tabindex="0">
-					<a href="index.html"> Inicio</a>
-					<ul class="sub-menu"></ul>
-				</li>
-				<li class="sub-menu-master">Noticias
-					<ul class="sub-menu">
-						<li>Ultimas giras</li>
-						<li>Lanzamientos</li>				
-					</ul>
-				</li>
-				<li class="sub-menu-master">Historia
-					<ul class="sub-menu">
-						<li>Comienzos</li> 
-						<li><a href="integrantes.html">Integrantes</a></li>
-						<li>Separacion</li>
-					</ul>	
-				</li>
-				<li class="sub-menu-master">
-					<a href="tabla.html"> Discografia</a>
-					<ul class="sub-menu">
-						<li>Led Zeppelin</li>
-						<li>Led Zeppelin II</li>
-						<li>Led Zeppelin III</li>
-						<li>Led Zeppelin IV</li>
-						<li>Houses of the Holy</li>
-						<li>Physical Graffiti</li>
-						<li>Presence</li>
-						<li>The song Remains te same</li>
-						<li>In throught the out door</li>
-						<li>Coda</li>
-					</ul>
-				</li>
-				<li class="sub-menu-master">
-					<a href="fotos-videos.html"> Fotos y Videos</a>
-					<ul class="sub-menu"></ul>
-				</li>
-				<li class="sub-menu-master">Conciertos
-					<ul class="sub-menu"></ul>
-				</li>
-				<li class="sub-menu-master">Merchandising
-					<ul class="sub-menu"></ul>
-				</li>
-				<li class="sub-menu-master">
-					<a href="contacto.html"> Contacto</a>
-					<ul class="sub-menu" ></ul>
-				</li>
-				<li class="sub-menu-master">Help
-					<ul class="sub-menu"></ul>
-				</li>
-			</ul>
-		</nav>
-	</header>
-</section>
 
-	
-		<video controls loop>
-			<source src="multimedia/The Ocean.mp4" type="video/mp4">
-		</video>		
-	</section>
-<section><footer>
-		<div class="footer">
-			<footer class="copyright">Copyright. 2019
-			</footer>
-			<ul class="social">
-				<li>
-					<a href="https://www.facebook.com/ledzeppelin/" class="social"><i class="fab fa-facebook-f"></i></a> /ledzeppelin
-				</li>
-				<li>
-					<a href="https://twitter.com/ledzeppelin" class="social"><i class="fab fa-twitter"></i>
-					</a>@ledzeppelin
-				</li> 
-				<li>
-				<a  href="https://www.instagram.com/ledzeppelin/?hl=es-la" class="social"><i class="fab fa-instagram"></i></a>@ledzeppelin
-				</li> 
-				<li>
-				<a  href="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp" class="social"><i class="fab fa-spotify"></i></a>Led Zeppelin 
-				</li> 
-			</ul>
-			
-		</div>
-	</footer>
-	</section>
+<head>
+    <title> LED ZEPPELIN</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+    <meta charset='utf-8'>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <div class="encabezado">
+                    <nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="multimedia/logo.png" width="100" height="30" alt="">
+                        </a>
+                    </nav>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Historia</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#banda">Banda</a>
+                                    <a class="dropdown-item" href="#integrantes">Integrantes</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discografia</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="discografia.html#lz1">Led Zeppelin</a>
+                                    <a class="dropdown-item" href="discografia.html#lz2">Led Zeppelin II</a>
+                                    <a class="dropdown-item" href="discografia.html#lz3">Led Zeppelin III</a>
+                                    <a class="dropdown-item" href="discografia.html#lz4">Led Zeppelin IV</a>
+                                    <a class="dropdown-item" href="discografia.html#houses">Houses Of The Holy</a>
+                                    <a class="dropdown-item" href="discografia.html#physical">Physical Graffiti</a>
+                                    <a class="dropdown-item" href="discografia.html#presence">Presence</a>
+                                    <a class="dropdown-item" href="discografia.html#the-song">The Song Remains The Same</a>
+                                    <a class="dropdown-item" href="discografia.html#ittod">In Throught The Out Door</a>
+                                    <a class="dropdown-item" href="discografia.html#coda">CODA</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="fotos-videos.html">Fotos y Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+<div class="conteiner">
+    <section  class="photos">
+      
+        <div class="row">
+         <div class="col-md-1 col-md-offset-1"></div> 
+        <div class="col-md-10" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="multimedia/1975.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="multimedia/1973.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="multimedia/1969.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="col-md-1 col-md-offset-1"></div>
+        </div>
+    
+      </section>
+       <section >
+      
+        <div class="row">
+          <div class="col-md-offset-1 col-md-1"></div>
+          <div class="col-md-10">
+        <div  class="embed-responsive embed-responsive-16by9" > 
+            <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/oxHoLtrGNCA?rel=0"></iframe>   
+        </div></div>
+        <div class=" col-md-1 col-md-offset-1"></div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="footer">
+                <footer class="copyright">Copyright. 2019
+                </footer>
+                <ul class="social">
+                    <li>
+                        <a href="https://www.facebook.com/ledzeppelin/" class="social"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ledzeppelin" class="social"><i class="fab fa-twitter"></i>
+          </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ledzeppelin/?hl=es-la" class="social"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp" class="social"><i class="fab fa-spotify"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </footer>
+    </section>
 </body>
+
 </html>

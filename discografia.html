@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title> MENU</title>
+    <title> LED ZEPPELIN</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <meta name="viewport" content="widht=device-widht,initial-scale=1.0" />
-</head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 <meta charset='utf-8'>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+</head>
 <body>
     <section>
         <header>
-            <div class="encabezado">
-                <div id="div-menu">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">INICIO</a></li>
-                            <li class="dropdown">
-                                <a href="#news" class="dropbtn">HISTORIA</a>
-                                <div class="dropdown-content">
-                                    <a href="#">Banda</a>
-                                    <a href="#">Integrantes</a>
-                                </div>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropbtn">DISCOGRAFIA</a>
-                                <div class="dropdown-content">
-                                    <a href="discografia.html">Led Zeppelin</a>
-                                    <a href="discografia.html">Led Zeppelin II</a>
-                                    <a href="discografia.html">Led Zeppelin III</a>
-                                    <a href="discografia.html">Led Zeppelin IV</a>
-                                    <a href="discografia.html">Houses of the Holy</a>
-                                    <a href="discografia.html">Physical Graffiti</a>
-                                    <a href="discografia.html">Presence</a>
-                                    <a href="discografia.html">The song Remains te same</a>
-                                    <a href="discografia.html">In throught the out door</a>
-                                    <a href="discografia.html">Coda</a>
-                                </div>
-                            </li>
-                            <li><a href="fotos-videos.html"> FOTOS Y VIDEOS </a> </li>
-                            <li><a href="contacto.html"> CONTACTO </a></li>
-                        </ul>
+              <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" >
+                <div class="encabezado">
+                    <nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="multimedia/logo.png" width="110" height="30" alt="">
+                        </a>
                     </nav>
-                </div>
-                <div id="div-logo">
+                    <!-- <div class= "div-logo">
                     <img src="multimedia/logo.png">
+                    </div> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Historia</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="index.html#banda">Banda</a>
+                                    <a class="dropdown-item" href="index.hmtl#integrantes">Integrantes</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discografia</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="discografia.html#lz1">Led Zeppelin</a>
+                                    <a class="dropdown-item" href="discografia.html#lz2">Led Zeppelin II</a>
+                                    <a class="dropdown-item" href="discografia.html#lz3">Led Zeppelin III</a>
+                                    <a class="dropdown-item" href="discografia.html#lz4">Led Zeppelin IV</a>
+                                    <a class="dropdown-item" href="discografia.html#houses">Houses Of The Holy</a>
+                                    <a class="dropdown-item" href="discografia.html#physical">Physical Graffiti</a>
+                                    <a class="dropdown-item" href="discografia.html#presence">Presence</a>
+                                    <a class="dropdown-item" href="discografia.html#the-song">The Song Remains The Same</a>
+                                    <a class="dropdown-item" href="discografia.html#ittod">In Throught The Out Door</a>
+                                    <a class="dropdown-item" href="discografia.html#coda">CODA</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="fotos-videos.html">Fotos y Videos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </header>
-    </section>
-    <div class="flex-content">
-        <h2>DISCOGRAFIA</h2>
-        <h2>TEMAS</h2>
-        <h2>FICHA TECNICAS</h2>
-    </div>
-    <div class="flex-lz1">
-        <div> <img src="multimedia/lz1.jpg"></div>
-        <div>
-            <ul>
+            </nav>
+  </header>
+</section>
+<section>
+    <div class="conteiner">
+   <table class="table">
+  <thead>
+    <tr>
+      <th class="tracks" scope="col">Album</th>
+      <th class="tracks" scope="col">Temas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><div  id="lz1"> <img class="disc-image" src="multimedia/lz1.jpg"></div></th>
+      <td>
+        <div class="tracks">
+        <ul>
                 <li>"Good Times, Bad Times" (Page/Bonham/Jones) 2:47</li>
                 <li>"Babe I'm Gonna Leave You" (Page/Anne Bredon) 6:43</li>
                 <li>"You Shook Me" (Dixon/Lenoir) 6:30</li>
@@ -69,12 +89,13 @@
                 <li>"I Can't Quit You Baby" (Dixon) 4:43</li>
                 <li>"How Many More Times" (Page/Bonham/Jones) 8:33</li>
             </ul>
-        </div>
-    </div>
-    <div class="flex-lz2">
-        <div><img src="multimedia/lz2.jpg"></div>
-        <div>
-            <ul>
+            </div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="lz2"><img class="disc-image" src="multimedia/lz2.jpg"></div></th>
+      <td>
+        <div class="tracks"><ul>
                 <li>"What Is and What Should Never Be" (Page/Plant) 4:46</li>
                 <li>"The Lemon Song" (Page/Plant/Jones) 6:20</li>
                 <li>"Thank You" (Page/Plant) 4:50</li>
@@ -83,13 +104,12 @@
                 <li>"Ramble On" (Page/Plant) 4:34</li>
                 <li>"Moby Dick" (Bonham/Jones/Page) 4:20</li>
                 <li>""Bring It On Home" (Page/Plant) 4:18</li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex-lz3">
-        <div><img src="multimedia/lz3.jpg"></div>
-        <div>
-            <ul>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="lz3"><img class="disc-image" src="multimedia/lz3.jpg"></div></th>
+      <td>
+        <div class="tracks"><ul>
                 <li>"Friends" (Page/Plant) 3:54</li>
                 <li>"Celebration Day" (Page/Plant/Jones) 3:30</li>
                 <li>"Since I've Been Loving You" (Page/Plant/Jones) 7:23</li>
@@ -98,14 +118,12 @@
                 <li>"Tangerine" (Page) 3:11</li>
                 <li>"That's the Way" (Page/Plant) 5:40</li>
                 <li>"Bron-Y-Aur Stomp" (Page/Plant/Jones) 4:17</li>
-                <li>"Hats Off to (Roy) Harper" (trad.) 3:40</li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex-lz4">
-        <div> <img src="multimedia/lz4.jpg"></div>
-        <div>
-            <ul>
+                <li>"Hats Off to (Roy) Harper" (trad.) 3:40</li></a></td>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="lz4"><img class="disc-image" src="multimedia/lz4.jpg"></div></th>
+      <td><div class="tracks"><ul>
                 <li>"Black Dog" (Page/Plant/Jones) - 4:56</li>
                 <li>"Rock and Roll" (Page/Plant/Jones/Bonham) - 3:41</li>
                 <li>"The Battle of Evermore" (Page/Plant) - 5:53</li>
@@ -114,13 +132,11 @@
                 <li>"Four Sticks" (Page/Plant) - 4:46</li>
                 <li>"Going to California" (Page/Plant) - 3:32</li>
                 <li>"When the Levee Breaks" (Page/Plant/Jones/Bonham/Memphis Minnie)</li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex-hoh">
-        <div> <img src="multimedia/hoh.jpg"></div>
-        <div>
-            <ul>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="houses"> <img class="disc-image" src="multimedia/hoh.jpg"></div></th>
+      <td><div class="tracks"><ul>
                 <li>"The Song Remains the Same" (Page/Plant) — 5:30</li>
                 <li>"The Rain Song" (Page/Plant) — 7:40</li>
                 <li>"Over the Hills and Far Away" (Page/Plant) — 4:53</li>
@@ -129,13 +145,11 @@
                 <li>"D'yer Mak'er" (Page/Plant/Jones/Bonham) — 4:24</li>
                 <li>"No Quarter" (Page/Plant/Jones) — 7:04</li>
                 <li>"The Ocean" (Page/Plant/Jones/Bonham) — 4:30</li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex-pg">
-        <div> <img src="multimedia/pg.jpg"></div>
-        <div>
-            <ul>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="physical"> <img class="disc-image" src="multimedia/pg.jpg"></div></th>
+      <td><div class="tracks"><ul>
                 <li>"The Rover" (Page/Plant) 5:40</li>
                 <li>"In My Time of Dying" (Page/Plant/Jones/Bonham) — 11:07</li>
                 <li>"Houses of the Holy" (Page/Plant) — 4:05</li>
@@ -150,13 +164,11 @@
                 <li>"Boogie with Stu" (Bonham/Jones/Page/Plant/Stewart/Valens) — 3:54</li>
                 <li>"Black Country Woman" (Page/Plant) — 4:33</li>
                 <li>"Sick Again" (Page/Plant) — 4:44</li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex-presence">
-        <div><img src="multimedia/presence.jpg"></div>
-        <div>
-            <ul>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="presence"><img class="disc-image" src="multimedia/presence.jpg"></div></th>
+      <td><div class="tracks"><ul>
                 <li>"Achilles Last Stand" (Page/Plant) — 10:24</li>
                 <li>"For Your Life" (Page/Plant) — 6:25</li>
                 <li>"Royal Orleans" (Bonham/Jones/Page/Plant) — 3:00</li>
@@ -164,13 +176,11 @@
                 <li>"Candy Store Rock" (Page/Plant) — 4:12</li>
                 <li>"Hots On For Nowhere" (Page/Plant) — 4:44</li>
                 <li>"Tea For One" (Page/Plant) — 9:27</li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex-the-song">
-        <div><img src="multimedia/the-song.jpg"></div>
-        <div>
-            <ul>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="the-song"><img class="disc-image" src="multimedia/the-song.jpg"></div></th>
+      <td><div class="tracks"><ul>
                 <li>"Rock and Roll" (Bonham/Jones/Page/Plant) — 3:56</li>
                 <li>"Celebration Day" (Jones/Page/Plant) — 3:38</li>
                 <li>"Black Dog" (Page/Plant/Jones) — 03:46</li>
@@ -187,30 +197,26 @@
                 <li>"Heartbreaker"(Bonham/Jones/Page/Plant) — 6:19</li>
                 <li>"Whole Lotta Love" (Bonham/Jones/Page/Plant) — 13:51</li>
 
-            </ul>
-        </div>
-    </div>
-    <div class="flex-ittod">
-        <div> <img src="multimedia/ittod.jpg"></div>
-        <div>
-            <ul>
-                <li> In the Evening" (Bonham/Jones/Page/Plant) — 6:52</li>
+            </ul></div>
+        </td>
+    </tr>
+    <tr>
+      <th scope="row"><div id="ittod"> <img class="disc-image" src="multimedia/ittod.jpg"></div></th>
+      <td><div class="tracks"><ul>
+                <li>"In the Evening" (Bonham/Jones/Page/Plant) — 6:52</li>
                 <li>"South Bound Saurez" (Jones,Plant) — 4:15</li>
                 <li>Fool In the Rain" (Page,Jones,Plant) — 6:10</li>
                 <li>"Hot Dog" (Page,Plant) — 3:20</li>
                 <li>"Carouselambra" (Page,Jones,Plant) — 10:35</li>
                 <li>"All My Love" (Jones, Plant) — 5:54</li>
                 <li>"I'm Gonna Crawl" (Page,Jones,Plant) — 5:30</li>
-            </ul>
-        </div>
-        <div>
-        </div>
-        <div class="flex-coda">
-            <div>
-                <img src="multimedia/coda.jpg"></div>
-            <div>
-                <ul>
-                    <li> We're Gonna Groove" (Bethea, King) — 2:38</li>
+            </ul></div></td>
+    </tr>
+    <tr>
+      <th scope="row"><div  id="coda">
+                <img  class="disc-image" src="multimedia/coda.jpg"></div></th>
+      <td><div class="tracks"><ul>
+                    <li>"We're Gonna Groove" (Bethea, King) — 2:38</li>
                     <li>"Poor Tom" (Page, Plant)— 3:02</li>
                     <li>"I Can't Quit You Baby" (Dixon) — 4:18</li>
                     <li>"Walter's Walk" (Page, Plant) — 4:31</li>
@@ -218,32 +224,32 @@
                     <li>"Darlene" (Bonham, Jones, Page, Plant) — 5:10</li>
                     <li>"Bonzo's Montreux" (Bonham) — 4:18</li>
                     <li>"Wearing and Tearing" (Page, Plant) — 5:32</li>
-                </ul>
-            </div>
-        </div>
-        <section>
-            <footer>
-                <div class="footer">
-                    <footer class="copyright">Copyright. 2019
-                    </footer>
-                    <ul class="social">
-                        <li>
-                            <a href="https://www.facebook.com/ledzeppelin/" class="social"><i class="fab fa-facebook-f"></i></a> /ledzeppelin
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/ledzeppelin" class="social"><i class="fab fa-twitter"></i>
-					</a>@ledzeppelin
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/ledzeppelin/?hl=es-la" class="social"><i class="fab fa-instagram"></i></a>@ledzeppelin
-                        </li>
-                        <li>
-                            <a href="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp" class="social"><i class="fab fa-spotify"></i></a>Led Zeppelin
-                        </li>
-                    </ul>
-                </div>
-            </footer>
+                </ul></div></td>
+    </tr>
+  </tbody>
+</table>s
         </section>
-</body>
+       <footer>
+        <div class="footer">
+            <footer class="copyright">Copyright. 2019
+            </footer>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/ledzeppelin/" class="social"><i class="fab fa-facebook-f"></i></a> 
+                </li>
+                <li>
+                    <a href="https://twitter.com/ledzeppelin" class="social"><i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ledzeppelin/?hl=es-la" class="social"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp" class="social"><i class="fab fa-spotify"></i></a>
+                </li>
+            </ul>
 
+        </div>
+    </footer>
+</body>
 </html>
