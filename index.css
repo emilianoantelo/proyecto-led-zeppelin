@@ -266,6 +266,15 @@ td {
 a{
 	color: black;
 }
+.table td, .table th {
+	vertical-align: middle;
+}
+/*tr{
+	margin-top: 5%;
+}*/
+.table{
+	margin-top: 5rem;
+}
 
 /*Footer*/
 
@@ -436,7 +445,9 @@ footer li{
 	margin-bottom:5%;
 	height: 25%;
 }
-
+#video{
+	margin-bottom: 3%;
+}
 
 /*Responsive*/
 @media only screen and (max-width: 1024px)  {
@@ -524,6 +535,8 @@ display: none;
 	position: relative;
 	margin-top: 20%;
 	display: inline-block;
+	margin-bottom: 10%;
+    width: 60%;
 }
 
 }
@@ -590,5 +603,7 @@ display: none;
 	position: relative;
 	margin-top: 30%;
 	display: inline-block;
+	margin-bottom: 10%;
+    width: 60%;
 }
 }
