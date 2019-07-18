@@ -352,15 +352,38 @@ footer li{
 
 
 /*integrenates*/
-.photo-member{
-	padding: 1%;
-	margin: 2%;
-	margin-top: 10%;
-	border-radius: 35%;
-	text-align: center;
+.photo-member img{
+	width: 100%;
 }
-.history-member{
+.photo-member
+/*{
+	text-align: center;
+	background-color: white;
+	
 	padding: 1%;
+	margin-top: 5%;
+	width: 50%;
+}*/
+
+{
+	width: 50%
+	padding: 1%;
+	margin: 20%;
+	margin-bottom: 5%;
+	margin-top: 10%;
+	background-color: black;
+	/*border-radius: 35%;*/
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.containerimage {
+  text-align: center;
+  padding: 5%;
+}
+
+.history-member{
+/*	padding: 1%;*/
 	margin: 2%;
 }
 .photo-plant{
