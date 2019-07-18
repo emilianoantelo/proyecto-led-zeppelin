@@ -269,9 +269,7 @@ a{
 .table td, .table th {
 	vertical-align: middle;
 }
-/*tr{
-	margin-top: 5%;
-}*/
+
 .table{
 	margin-top: 5rem;
 }
@@ -358,6 +356,8 @@ footer li{
 	padding: 1%;
 	margin: 2%;
 	margin-top: 10%;
+	border-radius: 35%;
+	text-align: center;
 }
 .history-member{
 	padding: 1%;

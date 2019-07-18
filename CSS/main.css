@@ -1,4 +1,24 @@
 @charset "UTF-8";
-h1.title​ {
-  ​font​: ​ ​normal​ ​24px​/​1 0.5​ ​ "Open Sans" ​, ​sans-serif​;
-  ​color​: ​ ​ #F44336 ​; }
+h1 {
+  font: normal​ ​24px​/​1 0.5​ ​ "Roboto Slab", ​sans-serif​;
+  color: white; }
+
+h2 {
+  font: normal​ ​24px​/​1 0.5​ ​ "Roboto Slab", ​sans-serif​;
+  color: white; }
+
+h3 {
+  font: normal​ ​24px​/​1 0.5​ ​ "Roboto Slab", ​sans-serif​;
+  color: white; }
+
+h4 {
+  font: normal​ ​24px​/​1 0.5​ ​ "Roboto Slab", ​sans-serif​;
+  color: white; }
+
+body {
+  font: normal​ ​24px​/​1 0.5​ "Roboto Condensed", ​sans-serif​;
+  color: white; }
+
+ul {
+  font: normal​ ​24px​/​1 0.5​ "Roboto Condensed", ​sans-serif​;
+  color: white; }
