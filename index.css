@@ -273,7 +273,10 @@ a{
 .table{
 	margin-top: 5rem;
 }
-
+.disco-title{
+	text-align: center;
+	margin-top: 8%;
+}
 /*Footer*/
 
 ul .social a{	
@@ -332,9 +335,9 @@ footer li{
 /*tabla-discografia*/
 
 .tracks{
-	text-align: center;
+	/*text-align: center;
 	margin: 3%;
-	margin-right: 25%;
+	margin-right: 25%;*/
 	padding: 1%;
 	
 }
@@ -346,7 +349,7 @@ footer li{
 .disc-image{
 	text-align: center;
 	padding: 1%;
-	margin-top: 10%;
+	margin-top: 20%;
 	margin-left: : 2%;
 }
 
