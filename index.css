@@ -200,32 +200,23 @@ td {
 	margin-top:5%; 	
 	width: 100%;
 	min-height: 50%;
+	margin-bottom: 5%;
 }
 
 /*Discografia*/
+#discografia ul{ 
+	list-style: none; 
+	text-decoration: none;
+	
+}
+ 
+.col-md-3, .col-sm-3, .col-6
+{
+	padding: 0 0.5;
 
-.flex-disco-container{
-	display: flex;
-	justify-content:flex-start;
-	flex-wrap: nowrap;
-	align-content: center;
-	text-align: center;	
-	list-style: none;
-	justify-content: space-between;
-	padding: 0.5%;
 
 }
-.flex-disco-container-2{
-	display: flex;
-	justify-content:flex-start;
-	flex-wrap: nowrap;
-	align-content: center;
-	text-align: center;
-	list-style: none;
-	justify-content: space-between;	
-	padding: 0.5%;
 
-	}
 .tapa-disco{
 	position: relative;
 	
@@ -256,7 +247,8 @@ td {
 .texto-disco{
 	color: black;
 	font-size: 16px;
-	padding: 16px 32px
+	padding: 16px 32px;
+	text-align: center;
 }
 .discos{
 	text-align: center;
@@ -552,7 +544,7 @@ display: none;
 	text-align: center;	
 	max-width: 100%;
 	height: auto;
-	font-size: 10px;
+	font-size: 20px;
 }
 .ermitano img{
 	display: none;
@@ -620,7 +612,7 @@ display: none;
 	text-align: center;	
 	max-width: 100%;
 	height: auto;
-	font-size: 10px;
+	font-size: 15px;
 }
 .ermitano img{
 	display: none;
@@ -631,5 +623,8 @@ display: none;
 	display: inline-block;
 	margin-bottom: 10%;
     width: 60%;
+}
+.photos{
+	margin-top: 15%;
 }
 }
