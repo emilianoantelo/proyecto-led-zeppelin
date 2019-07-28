@@ -5,17 +5,17 @@ body{
 	margin: 0 auto;
 	width: 100%;
 	font-size: 20px;
-
 }
 body, html {
   height: 100%;
 }
 
 /*Encabezado*/
+/*
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
-
+*/
 .encabezado{
 	background-color: #9F9C72;
 	width: 100%;
@@ -27,6 +27,7 @@ body, html {
 .bg-light {
     background-color: #9F9C72!important;
 }
+
 .div-logo{
 	position: relative;
 	display:inline-block;
@@ -124,6 +125,7 @@ td {
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 }
+
 .flex-jones{
 	display: flex;
 	justify-content:space-between;
@@ -138,6 +140,7 @@ td {
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 }
+
 .flex-bonzo{
 	display: flex;
 	justify-content:space-between;
@@ -152,6 +155,7 @@ td {
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 }
+
 .flex-integrantes{
 	display: flex;
 	justify-content:space-between;
@@ -159,16 +163,18 @@ td {
 	align-content: center;
 	text-align: center;
 	flex-direction: row;
-	height: 20%;
+	height: auto;
 	align-items: flex-start;
 	padding: 1%;
 	margin-top: 3%;
 }
+
 .foto-integrante{
 	height: 45%;
 	width: 75%;
 	border-radius: 90%;
 }
+
 .flex-info-integrantes{
 	font-family: 'Roboto Slab', serif;
 	display: flex;
@@ -210,17 +216,15 @@ td {
 	
 }
  
-.col-md-3, .col-sm-3, .col-6
-{
+.col-md-3, .col-sm-3, .col-6{
 	padding: 0 0.5;
-
-
 }
 
 .tapa-disco{
 	position: relative;
 	
 }
+
 .disc{
 	opacity: 1;
 	display: block;
@@ -229,6 +233,7 @@ td {
 	transition: .5s ease;
 	backface-visibility: hidden;
 }
+
 .transition-disc{
 	transition: .5s ease;
 	opacity: 0;
@@ -238,26 +243,32 @@ td {
 	transform: translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
 }
+
 .tapa-disco:hover .disc{
 	opacity: 0.3;
 }
+
 .tapa-disco:hover .transition-disc{
 	opacity: 1;
 }
+
 .texto-disco{
 	color: black;
 	font-size: 16px;
 	padding: 16px 32px;
 	text-align: center;
 }
+
 .discos{
 	text-align: center;
 	overflow: hidden;
 	padding:5%;
 }
+
 a{
 	color: black;
 }
+
 .table td, .table th {
 	vertical-align: middle;
 }
@@ -265,10 +276,12 @@ a{
 .table{
 	margin-top: 5rem;
 }
+
 .disco-title{
 	text-align: center;
 	margin-top: 8%;
 }
+
 /*Footer*/
 
 ul .social a{	
@@ -276,6 +289,7 @@ ul .social a{
 	color: white;
 	font-size: 10px;
 } 
+
 footer .footer{
 	padding: 30px 20px;
 	display: inline-flex;
@@ -308,14 +322,15 @@ footer .footer .social a{
     margin-right: 35%;
     margin-left: 35%;
     padding: 2%;
-
 }
+
 footer .footer .copyright{
 	text-align: left;
 	width: 55%;
 	display: inline;
 	margin-top: 20px;
 }
+
 footer li{
 	text-decoration: none;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -327,17 +342,14 @@ footer li{
 /*tabla-discografia*/
 
 .tracks{
-	/*text-align: center;
-	margin: 3%;
-	margin-right: 25%;*/
 	padding: 1%;
-	
 }
+
 .tracks ul{
 	text-decoration: none;
 	list-style: none;
-
 }
+
 .disc-image{
 	text-align: center;
 	padding: 1%;
@@ -347,86 +359,80 @@ footer li{
 
 
 /*integrenates*/
+
 .photo-member img{
 	width: 100%;
 }
-.photo-member
-/*{
-	text-align: center;
-	background-color: white;
-	
-	padding: 1%;
-	margin-top: 5%;
-	width: 50%;
-}*/
 
-{
+.photo-member{
 	width: 50%
 	padding: 1%;
 	margin: 20%;
 	margin-bottom: 5%;
 	margin-top: 10%;
 	background-color: black;
-	/*border-radius: 35%;*/
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div.containerimage {
+div .containerimage {
   text-align: center;
   padding: 5%;
 }
 
 .history-member{
-/*	padding: 1%;*/
 	margin: 2%;
 }
+
 .photo-plant{
 	padding: 1%;
 	margin: 2%;
 	margin-top: 10%;
 
 }
+
 .history-plant{
 	padding: 1%;
 	margin: 2%;
 
 }
+
 .photo-page{
 	padding: 1%;
 	margin: 2%;
 	margin-top: 10%;
 
 }
+
 .history-page{
 	padding: 1%;
 	margin: 2%;
 }
+
 .photo-jones{
 	padding: 1%;
 	margin: 2%;
 	margin-top: 10%;
 }
+
 .history-jones{
 	padding: 1%;
 	margin: 2%;
-	
-
 }
+
 .photo-bonzo{
 	padding: 1%;
 	margin: 2%;
 	margin-top: 10%;
 }
+
 .history-bonzo{
 	padding: 1%;
 	margin: 2%;
-
-
 }
 
-
 /*contacato*/
+
 .contact{
 	margin-left:10%;
 	margin-right:40%; 
@@ -436,8 +442,8 @@ div.containerimage {
 	display: inline;
 	width: 45%;
 	margin-top: 10%;
-
 }
+
 .send{
 	position: absolute;
 	display: block;
@@ -445,10 +451,12 @@ div.containerimage {
 	width: 95%;
 
 }
+
 #restablecer{
 	position: relative;
 	display: inline-block;	
 }
+
 .ermitano img{
 	position: relative;
 	display:inline;
@@ -462,6 +470,7 @@ div.containerimage {
 .photos{
 	margin-bottom:5%;
 	height: 25%;
+	margin-top: 10%;
 }
 #video{
 	margin-bottom: 3%;
@@ -504,60 +513,62 @@ div.containerimage {
 	max-width: 100%;
     margin-top: 10%;
     margin-right: 1%;
-    
-}
-#texto{
-display: none;
-}
-.flex-integrantes{
+    }
+
+    #texto{
+    	display: none;
+    }
+
+    .flex-integrantes{
 	flex-direction: column;
-}
-.foto-integrante{
-	height: auto;
-	max-width: 100%;
-}
-.flex-plant{
-	display: unset;
-	font-size: 3px;
+	}
+
+	.foto-integrante{
+		height: auto;
+		max-width: 100%;
+	}
+	.flex-plant{
+		display: unset;
+		font-size: 3px;
+	}
+
+	.flex-page{
+		display: unset;
+		font-size: 3px;
+	}
+	
+	.flex-jones{
+		display: unset;
+		font-size: 3px;
+	}
+	.flex-bonzo{
+		display: unset;
+		font-size: 3px;
+	}
+
+	.banda{
+		background-size:cover;
+		background-position: center;		
+		background-repeat: no-repeat;
+		text-align: center;	
+		max-width: 100%;
+		height: auto;
+		font-size: 20px;
+	}
+	.ermitano img{
+		display: none;
+	}
+
+	.contact{
+		position: relative;
+		margin-top: 20%;
+		display: inline-block;
+		margin-bottom: 10%;
+	    width: 60%;
+	}
 
 }
-.flex-page{
-	display: unset;
-	font-size: 3px;
 
-}
-.flex-jones{
-	display: unset;
-	font-size: 3px;
-
-}
-.flex-bonzo{
-	display: unset;
-	font-size: 3px;
-
-}
-
-.banda{
-	background-size:cover;
-	background-position: center;		
-	background-repeat: no-repeat;
-	text-align: center;	
-	max-width: 100%;
-	height: auto;
-	font-size: 20px;
-}
-.ermitano img{
-	display: none;
-}
-.contact{
-	position: relative;
-	margin-top: 20%;
-	display: inline-block;
-	margin-bottom: 10%;
-    width: 60%;
-}
-
-}
 @media only screen and (max-width: 400px){
 	body{
 	    background-size: cover;
@@ -565,66 +576,83 @@ display: none;
 	    background-position: right;
 	    font-size: 5;
 	}
-.titulo{
+	.titulo{
 	background-image: url("multimedia/portada2.jpg");
 	background-position: center;
 	background-size: cover;
 	max-width: 100%;
     margin-top: 10%;
     margin-right: 1%;
-}
-	    
-#texto{
-display: none;
-}
-.flex-integrantes{
-	flex-direction: column;
-}
-.foto-integrante{
-	height: auto;
-	max-width: 100%;
-}
-.flex-plant{
-	display: unset;
-	font-size: 3px;
+	}
 
-}
-.flex-page{
-	display: unset;
-	font-size: 3px;
+	#texto{
+		display: none;
+	}
 
-}
-.flex-jones{
-	display: unset;
-	font-size: 3px;
+	.flex-integrantes{
+		flex-direction: column;
+	}
 
-}
-.flex-bonzo{
-	display: unset;
-	font-size: 3px;
+	.foto-integrante{
+		height: auto;
+		max-width: 100%;
+	}
 
-}
+	.flex-plant{
+		display: unset;
+		font-size: 3px;
+	}
 
-.banda{
-	background-size:cover;
-	background-position: center;		
-	background-repeat: no-repeat;
-	text-align: center;	
-	max-width: 100%;
-	height: auto;
-	font-size: 15px;
-}
-.ermitano img{
-	display: none;
-}
-.contact{
-	position: relative;
-	margin-top: 30%;
-	display: inline-block;
-	margin-bottom: 10%;
-    width: 60%;
-}
-.photos{
-	margin-top: 15%;
-}
+	.flex-page{
+		display: unset;
+		font-size: 3px;
+	}
+
+	.flex-jones{
+		display: unset;
+		font-size: 3px;
+	}
+	.flex-bonzo{
+		display: unset;
+		font-size: 3px;
+	}
+
+	.banda{
+		background-size:cover;
+		background-position: center;		
+		background-repeat: no-repeat;
+		text-align: center;	
+		max-width: 100%;
+		height: auto;
+		font-size: 15px;
+	}
+
+	.photo-member{
+		margin-top: 25%;
+	}
+
+	.history-member{
+		margin-left: 2%;
+		margin-right: 1%;
+	}
+	
+	.ermitano img{
+		display: none;
+	}
+
+	.disco-title{
+		margin-top: 22%;
+	}
+
+	.contact{
+		position: relative;
+		margin-top: 30%;
+		display: inline-block;
+		margin-bottom: 10%;
+	    width: 60%;
+	}
+
+	.photos{
+		margin-top: 20%;
+	}
 }
