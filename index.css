@@ -11,11 +11,6 @@ body, html {
 }
 
 /*Encabezado*/
-/*
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
-*/
 .encabezado{
 	background-color: #9F9C72;
 	width: 100%;
@@ -215,7 +210,10 @@ td {
 	text-decoration: none;
 	
 }
- 
+ #discografia{
+ 	margin-right: 5%;
+ 	 }
+
 .col-md-3, .col-sm-3, .col-6{
 	padding: 0 0.5;
 }
@@ -484,12 +482,30 @@ div .containerimage {
 	    background-size: cover;
 	}
 
+ #discografia{
+ 	margin-right: 5%;
+ 	 }
+ 	 .photo-member{
+		margin-top: 25%;
+	}
+
+	.history-member{
+		margin-left: 2%;
+		margin-right: 1%;
+	}
+
 	#div-menu{
 	width: 70%;
 	}
 
 	#div-logo{
 		width: 25%;
+	}
+	.disco-title{
+		margin-top: 22%;
+	}
+	.photos{
+		margin-top: 20%;
 	}
 
 }
@@ -546,6 +562,10 @@ div .containerimage {
 		font-size: 3px;
 	}
 
+ #discografia{
+ 	margin-right: 5%;
+ 	 }
+
 	.banda{
 		background-size:cover;
 		background-position: center;		
@@ -554,6 +574,14 @@ div .containerimage {
 		max-width: 100%;
 		height: auto;
 		font-size: 20px;
+	}
+	.photo-member{
+		margin-top: 25%;
+	}
+
+	.history-member{
+		margin-left: 2%;
+		margin-right: 1%;
 	}
 	.ermitano img{
 		display: none;
@@ -565,6 +593,12 @@ div .containerimage {
 		display: inline-block;
 		margin-bottom: 10%;
 	    width: 60%;
+	}
+	.disco-title{
+		margin-top: 22%;
+	}
+	.photos{
+		margin-top: 20%;
 	}
 
 }
@@ -626,6 +660,9 @@ div .containerimage {
 		height: auto;
 		font-size: 15px;
 	}
+	 #discografia{
+ 	margin-right: 5%;
+ 	 }
 
 	.photo-member{
 		margin-top: 25%;
